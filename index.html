@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+<title>Tip Calculator</title>
+</head>
+<body>
+<div class="cal-outer">
+<div class="cal-inner">
+<div class="head-wrapper">
+<div class="cal-head">
+    <h1>Tip Calculator</h1>
+</div>
+</div>
+<div class="calc-wrapper">
+<form action="">
+    <div class="bill-wrapp">
+        <label for="">Bill:</label>
+        <input type="text" placeholder="$" class="bill-in">
+    </div>
+    <div class="rate-wrapp">
+        <label for="">Rate 
+            Service</label>
+        <select name="" class="rating">
+            <option disabled selected value="0">
+                Select an Option
+            </option>
+            <option value="0.15">15% Excellent</option>
+            <option value="0.10">10% Good</option>
+            <option value="0.05">5% Fair</option>
+
+
+        </select>
+    </div>
+    <button type="button" class="btn">Calculate</button>
+    <div class="btn-error">
+        <p>Please enter amount and rate our services!</p>
+    </div>
+    
+</form>
+<div class="results">
+    <div class="tip-wrap">
+        <p class="tip">Total Amount:$0</p>
+    </div>
+    <div class="amt-wrap">
+        <p class="total-bill">Total Bill:$0</p>
+    </div>
+    
+</div>
+</div>
+</div>
+</div>
+</body>
+<script src="/script.js"></script>
+</html>
